@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.flex-container div {
+    flex: 1;
+}
+
+    .one {
+        background-color: #1F2937;
+    }
+    .two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+            .two h2 {
+                display: flex;
+                align-items: flex-end;
+                justify-content: center;
+                height: 50px;
+                width: 100vw;
+            }
+            .img-container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+            }
+                .img-container figure {
+                    display: flex;
+                    flex-direction: column;
+                    flex: 1;
+                    align-items: center;
+                    justify-content: center;
+                    width: 122px;
+                    
+                    font-size: 12px;
+                    text-align: center;
+
+                }
+                .img-container img {
+                    width: 90px;
+                    height: 90px;
+                    border: 2px solid #3882F6;
+                    border-radius: 10%;
+                }
+    .three {
+        background-color: #E5E7EB;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+        .three p {
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+            justify-content: center;
+            width: 600px;
+
+            font-size: 26px;
+            font-style: italic;
+            color: #1F2937;
+        }
+        .three strong {
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+        }
+    .four {
+        
+    }
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+
+    background-color: #1F2937;
+    color: white;
+}
